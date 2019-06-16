@@ -1,6 +1,7 @@
 html,
 body {
     height: 100%;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -25,10 +26,18 @@ h5 {
     letter-spacing: 3px;
 }
 
-.hr-light {
+.top-buffer { margin-top:20px; }
+
+.hr-white-lg {
+    border-top: 3px solid #fff;
+    width: 300px;
+}
+
+.hr-white-sm {
     border-top: 3px solid #fff;
     width: 200px;
 }
+
 
 .my-icon {
     font-size: 3em;
