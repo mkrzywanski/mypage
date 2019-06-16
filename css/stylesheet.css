@@ -1,0 +1,31 @@
+html,
+body,
+.view {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 993px) {
+    nav.navbar {
+        background: #c4c3d3;
+    }
+}
+
+h1 {
+    letter-spacing: 8px;
+    font-size:     75px;
+    font-weight:   100;
+}
+
+h5 {
+    letter-spacing: 3px;
+}
+
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 200px;
+}
+
+.my-icon {
+    font-size: 3em;
+}
