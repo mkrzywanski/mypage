@@ -1,8 +1,12 @@
 html,
-body,
-.view {
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    background-size: cover;
+    background: url('../img/blured_background.jpg') no-repeat center center;
 }
 
 @media (max-width: 993px) {
@@ -13,8 +17,8 @@ body,
 
 h1 {
     letter-spacing: 8px;
-    font-size:     75px;
-    font-weight:   100;
+    font-size: 75px;
+    font-weight: 100;
 }
 
 h5 {
